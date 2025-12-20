@@ -99,6 +99,15 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.0.2"
+  lib:
+    dependency: "direct main"
+    description:
+      path: "."
+      ref: Sprint-1
+      resolved-ref: "4b654e4c5d5e380b66ee4663dc46ed19da5f266f"
+      url: "https://github.com/Liliia08/matule.git"
+    source: git
+    version: "1.0.0+1"
   lints:
     dependency: transitive
     description:
@@ -192,6 +201,15 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.7.6"
+  uikit:
+    dependency: transitive
+    description:
+      path: "packages/uikit"
+      ref: "4b654e4c5d5e380b66ee4663dc46ed19da5f266f"
+      resolved-ref: "4b654e4c5d5e380b66ee4663dc46ed19da5f266f"
+      url: "https://github.com/Liliia08/matule.git"
+    source: git
+    version: "0.0.1"
   vector_math:
     dependency: transitive
     description:
