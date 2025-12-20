@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:uikit/uikit.dart';
+import 'createProfile.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});
@@ -62,6 +63,20 @@ class _LoginPageState extends State<LoginPage> {
               else
                 ui.bigbuttons.primary(text: "Далее",enabled: false,onPressed: (){}
                 ),
+              SizedBox(height: 15,),
+              TextButton(
+                onPressed: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => CreateProfile()),);
+                },
+                child: Text(
+                  'Зарегистрироваться',
+                  style: ui.font.textRegular.copyWith(
+                    color: ui.color.accent,
+                  ),
+                ),
+              )
             ],
           ),
         ),
