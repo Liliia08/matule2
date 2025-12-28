@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:matule/login_page.dart';
-import 'package:uikit/uikit.dart';
 
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
@@ -26,27 +25,23 @@ class _SplashScreenState extends State<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Container(
-        decoration: BoxDecoration(
-          gradient: LinearGradient(
-            colors: [
-              ui.color.accent,
-              ui.color.accentinactive,
-            ],
-            begin: Alignment.topCenter,
-            end: Alignment.bottomCenter,
-          ),
-        ),
-        child: Center(
-          child: Text(
-            'Matule',
-            style: const TextStyle(
-              fontSize: 40,
-              fontWeight: FontWeight.w400,
-              color: Colors.white,
+      body: Stack(
+          fit: StackFit.expand,
+          children: [
+            Image.asset("assets/images/SplashScreen.png",
+              fit: BoxFit.cover,),
+            Center(
+              child: Text(
+                'Matule',
+                style: const TextStyle(
+                    fontSize: 40,
+                    fontWeight: FontWeight.w400,
+                    color: Colors.white,
+                    fontFamily: 'SF Pro Display'
+                ),
+              ),
             ),
-          ),
-        ),
+          ]
       ),
     );
   }
