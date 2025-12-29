@@ -104,7 +104,7 @@ packages:
     description:
       path: "."
       ref: Sprint-1
-      resolved-ref: b2bbd3769d9d0d7b2a0f8ac445452bc444aa72fb
+      resolved-ref: d299668ac95cfe801bdbc3b867cb3840ea128060
       url: "https://github.com/Liliia08/matule.git"
     source: git
     version: "1.0.0+1"
@@ -205,8 +205,8 @@ packages:
     dependency: transitive
     description:
       path: "packages/uikit"
-      ref: b2bbd3769d9d0d7b2a0f8ac445452bc444aa72fb
-      resolved-ref: b2bbd3769d9d0d7b2a0f8ac445452bc444aa72fb
+      ref: d299668ac95cfe801bdbc3b867cb3840ea128060
+      resolved-ref: d299668ac95cfe801bdbc3b867cb3840ea128060
       url: "https://github.com/Liliia08/matule.git"
     source: git
     version: "0.0.1"

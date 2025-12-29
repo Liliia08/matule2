@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:uikit/uikit.dart';
-import 'profile.dart';
+
+import 'navigation.dart';
 
 class Protect extends StatefulWidget {
   const Protect ({super.key});
@@ -43,7 +44,7 @@ class _ProtectState extends State<Protect> {
     {
       Navigator.push(
         context,
-        MaterialPageRoute(builder: (context) => Profile()), // ← ИЗМЕНИТЕ НА ВАШУ СТРАНИЦУ
+        MaterialPageRoute(builder: (context) => Navigation()), // ← ИЗМЕНИТЕ НА ВАШУ СТРАНИЦУ
       );
     };
   }
