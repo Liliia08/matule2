@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:uikit/uikit.dart';
+import 'protect.dart';
+
 
 class CreatePassword extends StatefulWidget {
   CreatePassword();
@@ -81,7 +83,7 @@ class _CreatePasswordState extends State<CreatePassword> {
                         Navigator.push(
                           context,
                           MaterialPageRoute(
-                            builder: (context) => CreatePassword(),
+                            builder: (context) => Protect(),
                           ),
                         );
                       },

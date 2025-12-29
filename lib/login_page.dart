@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:uikit/uikit.dart';
 import 'createProfile.dart';
+import 'protect.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});
@@ -76,7 +77,9 @@ class _LoginPageState extends State<LoginPage> {
                       onPressed: () {
                         Navigator.push(
                           context,
-                          MaterialPageRoute(builder: (context) => LoginPage()),
+                          MaterialPageRoute(
+                            builder: (context) => Protect(),
+                          ),
                         );
                       },
                     )
