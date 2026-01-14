@@ -8,7 +8,8 @@ class MainPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.white,
-      body: SingleChildScrollView(  // Добавил для прокрутки
+      body: SingleChildScrollView(
+        // Добавил для прокрутки
         child: Padding(
           padding: const EdgeInsets.only(top: 68, left: 20),
           child: Column(
@@ -18,7 +19,9 @@ class MainPage extends StatelessWidget {
               const SizedBox(height: 32),
               Text(
                 "Акции и новости",
-                style: ui.font.title3Semibold.copyWith(color: const Color(0xFF939396)),
+                style: ui.font.title3Semibold.copyWith(
+                  color: const Color(0xFF939396),
+                ),
               ),
               const SizedBox(height: 16),
               Row(
@@ -41,7 +44,7 @@ class MainPage extends StatelessWidget {
               ),
               const SizedBox(height: 15),
               SizedBox(
-                height: 40,  // Фиксированная высота для меню
+                height: 40, // Фиксированная высота для меню
                 child: ListView(
                   scrollDirection: Axis.horizontal,
                   children: [
@@ -65,7 +68,7 @@ class MainPage extends StatelessWidget {
                 button: ui.smallbuttons.primary(
                   text: "Добавить",
                   enabled: true,
-                  onPressed: (){},
+                  onPressed: () {},
                 ),
               ),
               const SizedBox(height: 10),
@@ -75,7 +78,7 @@ class MainPage extends StatelessWidget {
                 price: '300',
                 button: ui.smallbuttons.Delete(
                   text: "Убрать",
-                  onPressed: (){},
+                  onPressed: () {},
                 ),
               ),
             ],

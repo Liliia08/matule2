@@ -38,6 +38,11 @@ dependencies:
     git:
       url: https://github.com/Liliia08/matule.git
       ref: Sprint-1
+  api:
+    git:
+      url: https://github.com/Liliia08/api.git
+      ref: main
+
 
 dev_dependencies:
   flutter_test:
