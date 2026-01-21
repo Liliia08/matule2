@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:uikit/uikit.dart';
 import 'createProfile.dart';
 import 'protect.dart';
+import 'cart.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});
@@ -95,7 +96,7 @@ class _LoginPageState extends State<LoginPage> {
                       Navigator.push(
                         context,
                         MaterialPageRoute(
-                          builder: (context) => CreateProfile(),
+                          builder: (context) => Cartt(),
                         ),
                       );
                     },
