@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:matule/katalog.dart';
 import 'package:uikit/uikit.dart';
 import 'main_page.dart';
 import 'profile.dart';
@@ -15,7 +16,7 @@ class _NavigationState extends State<Navigation> {
 
   final List<Widget> _pages = [
     const MainPage(),
-    Container(color: Colors.white, child: Center(child: Text('Каталог'))),
+    const Katalog(),
     Container(color: Colors.white, child: Center(child: Text('Проекты'))),
     const Profile(),
   ];
